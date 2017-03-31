@@ -25,6 +25,10 @@ init_generator.py: Script for substituting anomalously stretched bonds with harm
 
 74b.conf: Input restart file (containing structure and velocity data of an equilibrated hinge) for performing oxDNA MD simulations of 74b hinges
 
-Input.dat: Input file for performing oxDNA MD simulations of DNA hinges
+Input_GPU.in: Input file for performing oxDNA MD simulations of DNA hinges for GPU processors
+
+Input_CPU.in: Input file for performing oxDNA MD simulations of DNA hinges for CPU processors
+
+ini.in: Input files for the relaxation process
 
 Movie.mp4: Movie of 100-μs-long dynamics of the 0b hinge captured from MD simulations
