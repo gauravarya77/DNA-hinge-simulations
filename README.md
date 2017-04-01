@@ -31,4 +31,6 @@ Input_CPU.in: Input file for performing oxDNA MD simulations of DNA hinges for C
 
 ini.in: Input files for the relaxation process
 
+ini_demo: A quick startup for setting up simulation from a caDNAno output json file
+
 Movie.mp4: Movie of 100-μs-long dynamics of the 0b hinge captured from MD simulations
