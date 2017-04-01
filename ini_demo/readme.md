@@ -14,7 +14,6 @@ Instructions:
 
 To run the initialization processes, simply run the bash script:
 ```bash
-s = "bash ini.sh"
-print s
+bash ini.sh
 ```
 Simulation files for each run will be created in seperate folders.
