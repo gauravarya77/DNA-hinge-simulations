@@ -2,7 +2,7 @@
 
 Files:
 
-0b.json: 0b hinge caDNAno design
+53b.json: 53b hinge caDNAno design
 
 ini.in: initialization process input file
 
