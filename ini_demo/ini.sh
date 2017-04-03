@@ -1,5 +1,5 @@
 #!/bin/bash
-python ../cadnano_interface.py 0b.json he
+python ../cadnano_interface.py 53b.json he
 python ../init_generator.py
 
 mkdir relax
