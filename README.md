@@ -25,6 +25,16 @@ init_generator.py: Script for substituting anomalously stretched bonds with harm
 
 74b.conf: Input restart file (containing structure and velocity data of an equilibrated hinge) for performing oxDNA MD simulations of 74b hinges
 
+0b.json: caDNAno json file for 0b hinge design
+
+11b.json: caDNAno json file for 11b hinge design
+
+32b.json: caDNAno json file for 32b hinge design
+
+53b.json: caDNAno json file for 53b hinge design
+
+74b.json: caDNAno json file for 74b hinge design
+
 pro_GPU.in: Input file for performing oxDNA MD simulations of DNA hinges for GPU processors
 
 pro_CPU.in: Input file for performing oxDNA MD simulations of DNA hinges for CPU processors
