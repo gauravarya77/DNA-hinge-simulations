@@ -7,6 +7,7 @@ cd relax
 oxDNA ../relax.in
 cp last_conf.dat ../ini.conf
 cd ..
+rm -r relax
 
 for dir in ./*/
 do
