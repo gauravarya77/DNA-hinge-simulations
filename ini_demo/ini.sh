@@ -13,7 +13,7 @@ do
     cd $dir
     pwd
     cp ../ini.conf ./
-    oxDNA ../../ini.in
+    oxDNA ../ini.in
     cp last_conf.dat ../ini.conf
     cd ..
 done
