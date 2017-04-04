@@ -4,9 +4,9 @@ Files:
 
 53b.json: caDNAno design of the 53b hinge 
 
-ini.in: initialization process input file
+relax.in: oxDNA input options file for the initial relaxation step 
 
-relax.in: initial relaxation process input file
+ini.in: oxDNA input options file for the subsequent relaxation steps
 
 ini.sh: bash script for automating the model generation step and for carrying out the subsequent relaxation steps
 
