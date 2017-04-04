@@ -2,13 +2,13 @@
 
 Files:
 
-53b.json: 53b hinge caDNAno design
+53b.json: caDNAno design of the 53b hinge 
 
 ini.in: initialization process input file
 
-relax.in: initial relaxazition process input file
+relax.in: initial relaxation process input file
 
-ini.sh: bash script for creating files and running simulations
+ini.sh: bash script for automating the model generation step and for carrying out the subsequent relaxation steps
 
 Instructions:
 
@@ -16,6 +16,6 @@ To run the initialization processes, simply run the bash script:
 ```bash
 bash ini.sh
 ```
-Note that this process may take upto 24 hours.
+Note that this process may take up to 24 hours.
 
 Simulation files for each run will be created in seperate folders.
