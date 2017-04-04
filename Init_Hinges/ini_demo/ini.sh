@@ -1,10 +1,10 @@
 #!/bin/bash
-# creat the oxDNA topology file and configuration file from the caDNAno design
+# creat the oxDNA topology and configuration files from the caDNAno design
 python ../cadnano_interface.py 53b.json he
-# substitute the stretched bonds with harmonic restraints on distance
+# substitute stretched bonds with harmonic distance restraints
 python ../init_generator.py
 
-# run initial relaxation in a sub folder
+# run the initial relaxation step in a sub folder
 mkdir relax
 cd relax
 oxDNA ../relax.in
