@@ -11,7 +11,7 @@ oxDNA ../relax.in
 cp last_conf.dat ../ini.conf
 cd ..
 
-# run the initializations step by step
+# run subsequent relaxation steps in separate sub folders
 for dir in ./ini*/
 do
     cd $dir
@@ -22,7 +22,7 @@ do
     cd ..
 done
 
-# build folder for the productive run
+# build folder for the productive MD run
 mkdir pro
 cd pro
 cp ../ini.conf ini.conf
