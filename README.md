@@ -1,46 +1,10 @@
 # DNA-hinge-simulations
 Files associated with oxDNA hinge simulations
 
-cadnano_interface.py: Python script for converting CaDNAno output file into oxDNA input file, modified to be able to deal with stretched bonds connecting two bases in the same helix.
+Design_Hinges: Design of the hinges
 
-init_generator.py: Script for substituting anomalously stretched bonds with harmonic restraints and generating the corresponding restraint files for relaxation.
+Init_Hinges: Files for initialize the stretched initial hinge structure
 
-0b.top: Input topology file for performing oxDNA MD simulations of 0b hinges
-
-11b.top: Input topology file for performing oxDNA MD simulations of 11b hinges
-
-32b.top: Input topology file for performing oxDNA MD simulations of 32b hinges
-
-53b.top: Input topology file for performing oxDNA MD simulations of 53b hinges
-
-74b.top: Input topology file for performing oxDNA MD simulations of 74b hinges
-
-0b.conf: Input restart file (containing structure and velocity data of an equilibrated hinge) for performing oxDNA MD simulations of 0b hinges
-
-11b.conf: Input restart file (containing structure and velocity data of an equilibrated hinge) for performing oxDNA MD simulations of 11b hinges
-
-32b.conf: Input restart file (containing structure and velocity data of an equilibrated hinge) for performing oxDNA MD simulations of 32b hinges
-
-53b.conf: Input restart file (containing structure and velocity data of an equilibrated hinge) for performing oxDNA MD simulations of 53b hinges
-
-74b.conf: Input restart file (containing structure and velocity data of an equilibrated hinge) for performing oxDNA MD simulations of 74b hinges
-
-0b.json: caDNAno json file for 0b hinge design
-
-11b.json: caDNAno json file for 11b hinge design
-
-32b.json: caDNAno json file for 32b hinge design
-
-53b.json: caDNAno json file for 53b hinge design
-
-74b.json: caDNAno json file for 74b hinge design
-
-pro_GPU.in: Input file for performing oxDNA MD simulations of DNA hinges for GPU processors
-
-pro_CPU.in: Input file for performing oxDNA MD simulations of DNA hinges for CPU processors
-
-ini.in: Input files for the initialization process with harmonic restraints
-
-ini_demo: A quick startup for setting up simulation from a caDNAno output json file
+MD_Hinges: Files required for MD simulation of the hinges, including the oxDNA input file and equilibrated structure.
 
 Movie.mp4: Movie of 100-μs-long dynamics of the 0b hinge captured from MD simulations
