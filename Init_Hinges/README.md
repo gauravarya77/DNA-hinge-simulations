@@ -1,4 +1,4 @@
-# Initialization and Relaxation Procedure of the Hinges
+# Generation of relaxed oxDNA hinge models from caDNAno designs
 
 cadnano_interface.py: Python script for converting caDNAno designs (json files) into oxDNA input files (topology and configuration files), modified to be able to deal with stretched bonds connecting two bases in the same helix.
 
