@@ -20,7 +20,7 @@
 
 74b.conf: Input restart file (containing structure and velocity data of an equilibrated hinge) for performing oxDNA MD simulations of 74b hinges
 
-pro_GPU.in: Input file for performing oxDNA MD simulations of DNA hinges for GPU processors
+pro_GPU.in: Input options file for performing oxDNA MD simulations of DNA hinges on GPUs
 
-pro_CPU.in: Input file for performing oxDNA MD simulations of DNA hinges for CPU processors
+pro_CPU.in: Input options file for performing oxDNA MD simulations of DNA hinges on CPUs
 
