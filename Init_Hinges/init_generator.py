@@ -60,7 +60,7 @@ while True:
     except:
         pass
 
-    # Strat writing restraint output
+    # Start writing restraint output
     f = open("ini%i/init" % r,"w")
     for i in range(len(ini_)):
         f.write("{\ntype = mutual_trap\nparticle = " +
