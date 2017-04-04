@@ -1,7 +1,7 @@
-# Initialization of the hinge
+# Initialization and Relaxation Procedure of the Hinges
 
-cadnano_interface.py: Python script for converting CaDNAno output file into oxDNA input file, modified to be able to deal with stretched bonds connecting two bases in the same helix.
+cadnano_interface.py: Python script for converting caDNAno designs (json files) into oxDNA input files (topology and configuration files), modified to be able to deal with stretched bonds connecting two bases in the same helix.
 
-init_generator.py: Script for substituting anomalously stretched bonds with harmonic restraints and generating the corresponding restraint files for relaxation.
+init_generator.py: Python script for substituting anomalously stretched bonds with harmonic restraints and generating the corresponding restraint files for relaxation.
 
-ini_demo: A quick startup for setting up simulation from a caDNAno output json file
+ini_demo: Demo containing bash scripts for carrying out the above initialization and relaxation procedures
